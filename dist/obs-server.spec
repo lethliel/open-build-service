@@ -223,9 +223,6 @@ BuildRequires:  memcached >= 1.4
 BuildRequires:  mysql
 BuildRequires:  netcfg
 BuildRequires:  rubygem(ci_reporter)
-BuildRequires:  xorg-x11-Xvnc
-BuildRequires:  xorg-x11-server
-BuildRequires:  xorg-x11-server-extra
 # write down dependencies for production
 BuildRequires:  rubygem(bundler)
 Requires:       %(echo `bash %{S:1} %{S:0} "ruby:2.4.0" "production"`)
